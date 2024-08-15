@@ -1,3 +1,4 @@
+import ContactHeader from './components/ContactHeader/ContactHeader.jsx'
 import Navigation from './components/Navigation/Navigation.jsx'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <Navigation />
+      <ContactHeader />
     </>
   )
 }
