@@ -1,12 +1,17 @@
+import ContactForm from './components/ContactForm/ContactForm.jsx'
 import ContactHeader from './components/ContactHeader/ContactHeader.jsx'
 import Navigation from './components/Navigation/Navigation.jsx'
-
+import "./App.css";
 function App() {
 
   return (
     <>
       <Navigation />
-      <ContactHeader />
+      <main className='main_container'>
+        <ContactHeader />
+        <ContactForm />
+      </main>
+      
     </>
   )
 }

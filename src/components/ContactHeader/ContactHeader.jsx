@@ -1,7 +1,7 @@
 import styles from './ContactHeader.module.css'
 
 const ContactHeader = () => {
-    console.log("The Contact HEader styles have : " , styles);
+    // console.log("The Contact HEader styles have : " , styles);
     
     return (
       <div className={`${styles.contact_section}`}>
